@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = /home/lucky7/WorkSpace/Mutex
 CMAKE_BINARY_DIR = /home/lucky7/WorkSpace/Mutex
 
 #=============================================================================
-# Target rules for target CMakeFiles/demo.dir
+# Target rules for target CMakeFiles/Mutex.dir
 
 # All Build rule for target.
-CMakeFiles/demo.dir/all:
-	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/depend
-	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucky7/WorkSpace/Mutex/CMakeFiles --progress-num=1,2,3 "Built target demo"
-.PHONY : CMakeFiles/demo.dir/all
+CMakeFiles/Mutex.dir/all:
+	$(MAKE) -f CMakeFiles/Mutex.dir/build.make CMakeFiles/Mutex.dir/depend
+	$(MAKE) -f CMakeFiles/Mutex.dir/build.make CMakeFiles/Mutex.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucky7/WorkSpace/Mutex/CMakeFiles --progress-num=1,2,3 "Built target Mutex"
+.PHONY : CMakeFiles/Mutex.dir/all
 
 # Include target in all.
-all: CMakeFiles/demo.dir/all
+all: CMakeFiles/Mutex.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/demo.dir/rule: cmake_check_build_system
+CMakeFiles/Mutex.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucky7/WorkSpace/Mutex/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/demo.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Mutex.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucky7/WorkSpace/Mutex/CMakeFiles 0
-.PHONY : CMakeFiles/demo.dir/rule
+.PHONY : CMakeFiles/Mutex.dir/rule
 
 # Convenience name for target.
-demo: CMakeFiles/demo.dir/rule
+Mutex: CMakeFiles/Mutex.dir/rule
 
-.PHONY : demo
-
-# clean rule for target.
-CMakeFiles/demo.dir/clean:
-	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/clean
-.PHONY : CMakeFiles/demo.dir/clean
+.PHONY : Mutex
 
 # clean rule for target.
-clean: CMakeFiles/demo.dir/clean
+CMakeFiles/Mutex.dir/clean:
+	$(MAKE) -f CMakeFiles/Mutex.dir/build.make CMakeFiles/Mutex.dir/clean
+.PHONY : CMakeFiles/Mutex.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Mutex.dir/clean
 
 .PHONY : clean
 

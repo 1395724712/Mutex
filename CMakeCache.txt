@@ -184,6 +184,9 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 //Value Computed by CMake
 Mutex_BINARY_DIR:STATIC=/home/lucky7/WorkSpace/Mutex
 
+//Dependencies for target
+Mutex_LIB_DEPENDS:STATIC=
+
 //Value Computed by CMake
 Mutex_SOURCE_DIR:STATIC=/home/lucky7/WorkSpace/Mutex
 

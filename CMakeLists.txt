@@ -34,4 +34,7 @@ set(CMAKE_BUILD_TYPE "Debug")
 set(SRC main.cpp Mutex.cpp)
 
 # 创建可执行文件
-add_executable(demo ${SRC})
+# add_executable(demo ${SRC})
+
+# 创建动态库
+add_library(Mutex SHARED ${SRC})

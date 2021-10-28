@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lucky7/WorkSpace/Mutex/Mutex.cpp
+Mutex.hpp
+/home/lucky7/WorkSpace/Mutex/Mutex.hpp
+assert.h
+-
+
+/home/lucky7/WorkSpace/Mutex/Mutex.hpp
+pthread.h
+-
+errno.h
+-
+
+/home/lucky7/WorkSpace/Mutex/main.cpp
+Mutex.hpp
+/home/lucky7/WorkSpace/Mutex/Mutex.hpp
+iostream
+-
+unistd.h
+-
+vector
+-
+

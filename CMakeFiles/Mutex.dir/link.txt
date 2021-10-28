@@ -1,0 +1,1 @@
+g++ -fPIC -pthread -g  -shared -Wl,-soname,libMutex.so -o libMutex.so CMakeFiles/Mutex.dir/main.cpp.o CMakeFiles/Mutex.dir/Mutex.cpp.o 

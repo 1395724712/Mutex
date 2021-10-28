@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named demo
+# Target rules for targets named Mutex
 
 # Build rule for target.
-demo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 demo
-.PHONY : demo
+Mutex: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Mutex
+.PHONY : Mutex
 
 # fast build rule for target.
-demo/fast:
-	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/build
-.PHONY : demo/fast
+Mutex/fast:
+	$(MAKE) -f CMakeFiles/Mutex.dir/build.make CMakeFiles/Mutex.dir/build
+.PHONY : Mutex/fast
 
 Mutex.o: Mutex.cpp.o
 
@@ -129,7 +129,7 @@ Mutex.o: Mutex.cpp.o
 
 # target to build an object file
 Mutex.cpp.o:
-	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/Mutex.cpp.o
+	$(MAKE) -f CMakeFiles/Mutex.dir/build.make CMakeFiles/Mutex.dir/Mutex.cpp.o
 .PHONY : Mutex.cpp.o
 
 Mutex.i: Mutex.cpp.i
@@ -138,7 +138,7 @@ Mutex.i: Mutex.cpp.i
 
 # target to preprocess a source file
 Mutex.cpp.i:
-	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/Mutex.cpp.i
+	$(MAKE) -f CMakeFiles/Mutex.dir/build.make CMakeFiles/Mutex.dir/Mutex.cpp.i
 .PHONY : Mutex.cpp.i
 
 Mutex.s: Mutex.cpp.s
@@ -147,7 +147,7 @@ Mutex.s: Mutex.cpp.s
 
 # target to generate assembly for a file
 Mutex.cpp.s:
-	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/Mutex.cpp.s
+	$(MAKE) -f CMakeFiles/Mutex.dir/build.make CMakeFiles/Mutex.dir/Mutex.cpp.s
 .PHONY : Mutex.cpp.s
 
 main.o: main.cpp.o
@@ -156,7 +156,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/Mutex.dir/build.make CMakeFiles/Mutex.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -165,7 +165,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/Mutex.dir/build.make CMakeFiles/Mutex.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -174,7 +174,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/Mutex.dir/build.make CMakeFiles/Mutex.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -184,7 +184,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... demo"
+	@echo "... Mutex"
 	@echo "... edit_cache"
 	@echo "... Mutex.o"
 	@echo "... Mutex.i"
